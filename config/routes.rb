@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'rooms/show'
   get 'tops/index'
   devise_for :shops
   devise_for :users
